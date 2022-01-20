@@ -108,7 +108,7 @@
 						"type": "DelimitedTextSource",
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
-							"recursive": true,
+							"recursive": false,
 							"wildcardFileName": "RegionCost.csv",
 							"enablePartitionDiscovery": false
 						},
@@ -166,7 +166,7 @@
 						"type": "DelimitedTextSource",
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
-							"recursive": true,
+							"recursive": false,
 							"wildcardFileName": "Users.csv",
 							"enablePartitionDiscovery": false
 						},
@@ -224,7 +224,7 @@
 						"type": "DelimitedTextSource",
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
-							"recursive": true,
+							"recursive": false,
 							"wildcardFileName": "Returns.csv",
 							"enablePartitionDiscovery": false
 						},
