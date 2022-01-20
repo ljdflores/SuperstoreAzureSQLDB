@@ -1,0 +1,132 @@
+{
+	"name": "AzureSqlTableOrders",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Row ID",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Order Priority",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Discount",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Unit Price",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Shipping Cost",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Customer ID",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Customer Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Ship Mode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Customer Segment",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Product Category",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Product Sub-Category",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Product Container",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Product Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Product Base Margin",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Country",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Region",
+				"type": "nvarchar"
+			},
+			{
+				"name": "State or Province",
+				"type": "nvarchar"
+			},
+			{
+				"name": "City",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Postal Code",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Order Date",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "Ship Date",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "Profit",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Quantity ordered new",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Sales",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Order ID",
+				"type": "float",
+				"precision": 15
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Orders"
+		}
+	}
+}
