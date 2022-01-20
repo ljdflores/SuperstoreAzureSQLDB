@@ -51,8 +51,8 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": false,
-							"enablePartitionDiscovery": false,
-							"prefix": "Orders.csv"
+							"wildcardFileName": "Orders.csv",
+							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
 							"type": "DelimitedTextReadSettings"
@@ -109,8 +109,8 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
-							"enablePartitionDiscovery": false,
-							"prefix": "RegionCost.csv"
+							"wildcardFileName": "RegionCost.csv",
+							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
 							"type": "DelimitedTextReadSettings"
@@ -167,8 +167,8 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
-							"enablePartitionDiscovery": false,
-							"prefix": "Users.csv"
+							"wildcardFileName": "Users.csv",
+							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
 							"type": "DelimitedTextReadSettings"
@@ -225,8 +225,8 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
-							"enablePartitionDiscovery": false,
-							"prefix": "Returns.csv"
+							"wildcardFileName": "Returns.csv",
+							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
 							"type": "DelimitedTextReadSettings"
